@@ -1,0 +1,17 @@
+{
+  "name": "cra-gui",
+  "version": "1.0.0",
+  "description": "Create React App Dashboard - Create, Develop and Manage your projects with a GUI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^3.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alajfit/cra-gui.git"
+  },
+  "author": "Alan J. Fitzpatrick"
+}
