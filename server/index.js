@@ -9,7 +9,7 @@ fastify.route({
     }
 })
 
-const start = async () => {
+void async function start () {
     try {
         await fastify.listen(3000)
         fastify.log.info(`server listening on ${fastify.server.address().port}`)
@@ -18,4 +18,3 @@ const start = async () => {
         process.exit(1)
     }
 }
-start()
