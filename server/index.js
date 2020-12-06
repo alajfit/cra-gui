@@ -9,6 +9,15 @@ fastify.route({
     }
 })
 
+fastify.route({
+    method: 'GET',
+    url: '/test',
+    preHandler: async (request, reply) => {},
+    handler: async (request, reply) => {
+        return { testing: '123' }
+    }
+})
+
 void async function start () {
     try {
         await fastify.listen(3000)
